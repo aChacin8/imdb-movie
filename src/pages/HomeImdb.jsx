@@ -3,6 +3,7 @@ import MovieCardComponent from "../components/MovieCardComponent";
 import { Row, Col, Container } from "react-bootstrap";
 import { fetchMovies } from "../api/api_res";
 import NavBarComponent from "../components/NavBarComponent";
+import FooterComponent from "../components/FooterComponent";
 
 export default function HomeImdb() {
 
@@ -43,9 +44,9 @@ export default function HomeImdb() {
                             <MovieCardComponent movie={movie} title={movie.title} id={movie.id} path={movie.poster_path} resume={movie.overview} average={movie.vote_average.toFixed(1)} trailer={movie.video} />
                         </Col>
                     ))}
-
                 </Row>
             </Container>
+            <FooterComponent/>
         </>
     );
 };
