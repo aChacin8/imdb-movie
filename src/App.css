@@ -1,0 +1,117 @@
+body {
+  background-color: #121212;
+  color: #FFD700;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Movie*/
+.movie-container {
+  background-color: #1E1E1E;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5);
+  margin: 20px auto;
+  width: 80%;
+}
+
+.movie-title {
+  color: #FFD700;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.movie-poster {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 3px solid #FFD700;
+  margin-bottom: 15px;
+}
+
+.movie-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFD700;
+}
+
+.movie-text, .movie-rating {
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+/* Button */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+  justify-self: center;
+}
+
+.trailer-button, .playlist-button {
+  background-color: #FFD700;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.trailer-button:hover, .playlist-button:hover {
+  background-color: #a88007;
+}
+
+/* Modal */
+.modal-header {
+  background-color: #1E1E1E;
+  border-bottom: 2px solid #FFD700;
+  color: #FFD700;
+}
+
+.modal-body {
+  background-color: #121212;
+  color: #FFFFFF;
+}
+
+.modal-footer {
+  background-color: #1E1E1E;
+  border-top: 2px solid #FFD700;
+}
+
+/* Cards */
+.card {
+  background-color: #1E1E1E !important;
+  color: #FFD700 !important;
+  border: 1px solid #FFD700 !important;
+}
+
+.card-title, .card-text {
+  color: #FFD700 !important;
+}
+
+.card img {
+  border-bottom: 2px solid #FFD700;
+}
+
+.card .btn {
+  background-color: #FFD700;
+  color: #121212;
+}
+
+.card .btn:hover {
+  background-color: #FFC107;
+}
+
+#img-desc {
+  width: 20%;
+}
+
+/* Footer */
+.navbar {
+  background-color: #FFD700;
+  color: #121212;
+}
